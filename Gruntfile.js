@@ -26,7 +26,7 @@ module.exports = function(grunt) {
         closureLibraryPath: 'closure-library',
         compile: true,
         compilerFile: ['closure-compiler', 'target',
-                       'closure-compiler-v20160517.jar'].join('/'),
+                       'closure-compiler-v20180101.jar'].join('/'),
         compilerOpts: {
           compilation_level: grunt.option('dev') ?
             'SIMPLE_OPTIMIZATIONS' : 'ADVANCED_OPTIMIZATIONS'
