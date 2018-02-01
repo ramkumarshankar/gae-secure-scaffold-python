@@ -7,7 +7,7 @@ No major changes, just a few minor simplifications for our project needs:
 - Temporary fix (needs a bit more work) for java version detection in `jscompiler.py` in closure-library  
 - Updated grunt jobs to use update closure compiler jar file
 
-I might simplify this further by removing dependencies we do not need (such as closure templates, and add some watch jobs to speed up local development.
+I might simplify this further by removing dependencies we do not need (such as closure templates), and add some watch jobs to speed up local development.
 
 ## Getting started
 
